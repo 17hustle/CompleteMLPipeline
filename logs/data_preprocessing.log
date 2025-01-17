@@ -1,0 +1,60 @@
+2025-01-17 23:13:04,240 - data_preprocessing - DEBUG - Data loaded properly
+2025-01-17 23:13:04,242 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-01-17 23:13:04,249 - data_preprocessing - DEBUG - Target column encoded
+2025-01-17 23:13:04,264 - data_preprocessing - DEBUG - Duplicates removed
+2025-01-17 23:13:04,278 - data_preprocessing - ERROR - Error during text normalization: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\habee/nltk_data'
+    - 'C:\\Users\\habee\\AppData\\Local\\Programs\\Python\\Python312\\nltk_data'
+    - 'C:\\Users\\habee\\AppData\\Local\\Programs\\Python\\Python312\\share\\nltk_data'
+    - 'C:\\Users\\habee\\AppData\\Local\\Programs\\Python\\Python312\\lib\\nltk_data'
+    - 'C:\\Users\\habee\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-01-17 23:13:04,279 - data_preprocessing - ERROR - Failed to complete the data transformation process: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\habee/nltk_data'
+    - 'C:\\Users\\habee\\AppData\\Local\\Programs\\Python\\Python312\\nltk_data'
+    - 'C:\\Users\\habee\\AppData\\Local\\Programs\\Python\\Python312\\share\\nltk_data'
+    - 'C:\\Users\\habee\\AppData\\Local\\Programs\\Python\\Python312\\lib\\nltk_data'
+    - 'C:\\Users\\habee\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-01-17 23:14:33,589 - data_preprocessing - DEBUG - Data loaded properly
+2025-01-17 23:14:33,590 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-01-17 23:14:33,591 - data_preprocessing - DEBUG - Target column encoded
+2025-01-17 23:14:33,594 - data_preprocessing - DEBUG - Duplicates removed
+2025-01-17 23:14:52,364 - data_preprocessing - DEBUG - Text column transformed
+2025-01-17 23:14:52,364 - data_preprocessing - DEBUG - Starting preprocessing for DataFrame
+2025-01-17 23:14:52,365 - data_preprocessing - DEBUG - Target column encoded
+2025-01-17 23:14:52,367 - data_preprocessing - DEBUG - Duplicates removed
+2025-01-17 23:14:56,720 - data_preprocessing - DEBUG - Text column transformed
+2025-01-17 23:14:56,868 - data_preprocessing - DEBUG - Processed data saved to ./data\interim
